@@ -1,0 +1,73 @@
+0core java
+
+10/7/2020
+->
+1.write a prgm to call 2 methods from main class
+2.wrie a prgm to create a.main method b.punch method c.kick method 
+(note:main method calls punch methd and punch method calls kick method)
+
+11/7/20
+1.prgm to create static and non static method and call it from main method
+2.prgm for 2 non static methoods and call from main method
+assignment
+2.prgm to create main method and 2 static methods,main calls 1st static and 1st static calls 2nd
+3.prgm to create main method and 2 non static methods,main calls 1st non static and 1s non static will call 2nd
+4.prgm to create main method,static and non static method,main calls static and static calls non static method 
+
+13/7/20
+*
+sm->static method; nsm->non static method 
+sm->sm(call directly)
+nsm->nsm(call directly)
+nsm->sm(call directly)
+sm->nsm(dosent call directly)uses object
+*
+->all the local variables must be initialized before using
+*
+variables
+->local
+->global(syntax: accessmodifier datatype variablename;)(accessmodifier->static/non-static)
+    ->static
+    ->non static
+1.prgm to create static variable and print it in main method
+2.prgm to create non static variable and print it in main method
+*
+sm->static method; nsm->non static method; sv->static variable; nsm->non static variable  
+sm->sm+sv(call directly)
+nsm->nsm+nsv(call directly)
+nsm->sm+sv(call directly)
+sm->nsm+nsv(dosent call directly)uses object
+3.a prgm to create static and non static varible and print it in main method
+*
+0 is default value not garbage value which compiler calls
+datatype->default val(static/non-static)
+byte
+short
+int->0
+long
+char
+float
+double
+boolean
+string
+*
+assignment
+in global initialization is not mandatory,if not initialized by developer then compiler does it by default
+1.prgm to print default value of all datatypes
+
+15/7/20
+method overloading:having same function names with diff args 
+
+16/7/20
+assignment
+1.overload static and non static method
+2.overload main method(interview qsn)
+3.to perform multiplication in 4 different ways
+
+17/7/20
+assignment
+1.create static variable, non static variable, local variable and print all methods in main method and draw execution diagram
+
+18/7/20
+assignment
+1.to create 2 static variables,2 non-static variables and print in main method and draw execution diagram
